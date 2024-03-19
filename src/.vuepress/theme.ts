@@ -80,6 +80,7 @@ toc: "Nesta Página",
       imgSize: true,
       include: true,
       mark: true,
+      footnote: true,
       stylize: [
         {
           matcher: "Recommended",
