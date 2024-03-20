@@ -15,7 +15,7 @@ star: true
 - Git
     - [Github Desktop (windows)](https://desktop.github.com/)
 - Visual Studio Code
-- Scene Builder
+- [Scene Builder](https://gluonhq.com/products/scene-builder/)
 
 
 

@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
   hostname: "20241-ifba-saj-ads-poo.github.io/blog-material-aula/",
@@ -21,6 +20,8 @@ export default hopeTheme({
   repo: "20241-ifba-saj-ads-poo/blog-material-aula",
 
   docsDir: "src",
+  
+  docsBranch: "master",
 
   // navbar
   navbar,
