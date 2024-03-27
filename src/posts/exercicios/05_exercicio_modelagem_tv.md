@@ -8,6 +8,7 @@ category:
   - entrega
 prev: 02_exercicio_modelagem_carro
 next: 04_exercicio_modelagem_dvd
+article: false
 ---
 
 # Exercício: Modelagem TV

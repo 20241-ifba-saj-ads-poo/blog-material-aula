@@ -6,6 +6,7 @@ tag:
 category:
   - exercicio
 next: 01_exercicio_java_caelum
+article: false
 ---
 
 # Exercício Java no W3C

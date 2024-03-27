@@ -6,6 +6,7 @@ tag:
 category:
   - exercicio
   - entrega
+article: false
 ---
 
 # Exercício: Area do Predio

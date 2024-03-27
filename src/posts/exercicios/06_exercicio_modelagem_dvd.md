@@ -7,6 +7,7 @@ category:
   - exercicio
   - entrega
 prev: 03_exercicio_modelagem_tv
+article: false
 ---
 
 # Exercício: Modelagem DVD

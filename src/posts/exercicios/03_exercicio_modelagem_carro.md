@@ -7,6 +7,7 @@ category:
   - exercicio
   - entrega
 next: 03_exercicio_modelagem_tv
+article: false
 ---
 
 # Exercício: Modelagem Carro
