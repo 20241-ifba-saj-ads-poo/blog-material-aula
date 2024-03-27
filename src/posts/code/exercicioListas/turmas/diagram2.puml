@@ -1,0 +1,17 @@
+@startuml
+class Aluno {
+- String nome
+}
+
+class Professor {
+- String nome
+}
+
+class Turma {
+- String nome
+- List<Professor> professores
+- List<Aluno> alunos
+}
+Turma .. Aluno
+Turma .. Professor
+@enduml
