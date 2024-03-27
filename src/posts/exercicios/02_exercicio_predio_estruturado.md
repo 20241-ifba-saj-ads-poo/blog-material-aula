@@ -8,8 +8,12 @@ category:
   - entrega
 ---
 
-# Exercício: Area do Predio
+# Exercício: Area do Prédio
 
 
-1. Escreva um programa para calcular o preço do aluguel de todo um predio baseada o metro quadrado de cada sala, de cada andar do prédio.
-Cada andar pode ter um valor de metro quadrado diferente.
+1. Escreva um programa para calcular o preço do aluguel de todo um prédio comercial. 
+- Cada andar do prédio tem um valor de metro quadrado diferente 
+- Cada andar do prédio pode ter uma quantidade de salas diferentes
+- Cada sala tem pode ter um tamanho diferente
+
+Escreva as structs e funções necessárias para armazenar todas as informações do prédio e fazer o calculo do valor de aluguel
