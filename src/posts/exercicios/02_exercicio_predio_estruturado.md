@@ -17,3 +17,16 @@ category:
     - Cada sala pode ter um tamanho diferente.
 
     Escreva as `structs` e funções necessárias para armazenar todas as informações do prédio e fazer o calculo do valor de aluguel.
+
+    ```c
+    struct XXXX {
+      //...
+    }
+    //...
+    float valorAluguelPredio(struct ...){
+      float valor;
+      //...
+      return valor;
+    }    
+    //float valorAluguelAndar?
+    ```
