@@ -73,3 +73,7 @@ Clique com o lado direita do mouse e escolha a opção `Open in Scene Builder`
 ## JavaFX 
 
 - https://openjfx.io/
+
+## JavaFX tutorial
+
+- https://www.javatpoint.com/javafx-tutorial
