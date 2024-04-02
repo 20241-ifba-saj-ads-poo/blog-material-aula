@@ -64,7 +64,7 @@ como seria fazer um saque ou um depósito?
 
 ```c
 
-int sacar(struct Conta minha_conta, float valor){}
+int sacar(struct Conta minha_conta, float valor){
   if(minha_conta.saldo>=valor){
     minha_conta.saldo-=valor;
     return 1;
@@ -72,7 +72,7 @@ int sacar(struct Conta minha_conta, float valor){}
   return 0;
 }
 
-int depositar(struct Conta minha_conta, float valor){}
+int depositar(struct Conta minha_conta, float valor){
   minha_conta.saldo+=valor;
   return 1;  
 }
