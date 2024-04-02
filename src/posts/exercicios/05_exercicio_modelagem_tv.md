@@ -1,14 +1,13 @@
 ---
 icon: study
-date: 2024-03-27 19:50:00.00 -3
+date: 2024-04-02 20:00:00.00 -3
 tag:
   - java
 category:
   - exercicio
   - entrega
-prev: 02_exercicio_modelagem_carro
-next: 04_exercicio_modelagem_dvd
-article: false
+prev: 05_exercicio_modelagem_tv
+next: 07_exercicio_modelagem_listas
 ---
 
 # Exercício: Modelagem TV

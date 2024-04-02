@@ -7,6 +7,7 @@ category:
   - exercicio
   - entrega
 prev: 00_exercicio_java_w3c
+next: 02_exercicio_predio_estruturado
 ---
 
 # Exercício: Fixação de sintaxe 

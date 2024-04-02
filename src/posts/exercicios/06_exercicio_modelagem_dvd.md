@@ -1,13 +1,13 @@
 ---
 icon: study
-date: 2024-03-27 19:55:00.00 -3
+date: 2024-04-02 20:00:00.00 -3
 tag:
   - java
 category:
   - exercicio
   - entrega
-prev: 03_exercicio_modelagem_tv
-article: false
+prev: 04_exercicio_predio_OO
+next: 06_exercicio_modelagem_dvd
 ---
 
 # Exercício: Modelagem DVD

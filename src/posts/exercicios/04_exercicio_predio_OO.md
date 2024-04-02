@@ -1,16 +1,20 @@
 ---
 icon: study
-date: 2024-03-27 19:45:00.00 -3
+date: 2024-04-02 20:00:00.00 -3
 tag:
   - java
 category:
   - exercicio
   - entrega
-article: false
+prev: 03_exercicio_modelagem_carro
+next: 05_exercicio_modelagem_tv
 ---
 
 # Exercício: Area do Predio
 
 
-1. Escreva um programa para calcular o preço do aluguel de todo um predio baseada o metro quadrado de cada sala, de cada andar do prédio.
-Cada andar pode ter um valor de metro quadrado diferente.
+1. Escreva um programa em OO para calcular o preço do aluguel de todo um prédio comercial. 
+    - Cada andar do prédio tem um valor de metro quadrado diferente. 
+    - Cada andar do prédio pode ter uma quantidade de salas diferentes.
+    - Cada sala pode ter um tamanho diferente.
+
