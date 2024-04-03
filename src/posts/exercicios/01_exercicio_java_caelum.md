@@ -64,8 +64,6 @@ class ExercicioX {
 n n*2 n*3 .... n*n
 ```
 
-## Link
 
-link para entrega da tarefa: https://classroom.github.com/a/Pr3eONr_
 
 <!-- @include: ../../bib/bib.md -->

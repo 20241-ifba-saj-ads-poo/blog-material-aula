@@ -31,6 +31,6 @@ next: 07_exercicio_modelagem_listas
 
 ## Link
 
-link para entrega da tarefa: https://classroom.github.com/a/AtTB28ze
+link para entrega da tarefa: 
 
 <!-- @include: ../../bib/bib.md -->

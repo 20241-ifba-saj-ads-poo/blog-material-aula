@@ -10,7 +10,7 @@ prev: 03_exercicio_modelagem_carro
 next: 05_exercicio_modelagem_tv
 ---
 
-# Exercício: Area do Predio
+# Exercício: Area do Prédio
 
 
 1. Escreva um programa em OO para calcular o preço do aluguel de todo um prédio comercial. 
@@ -18,3 +18,6 @@ next: 05_exercicio_modelagem_tv
     - Cada andar do prédio pode ter uma quantidade de salas diferentes.
     - Cada sala pode ter um tamanho diferente.
 
+## Exemplo
+
+[Link repositório](https://github.com/20241-ifba-saj-ads-poo/javafx-predio)

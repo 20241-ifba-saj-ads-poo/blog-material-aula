@@ -8,7 +8,6 @@ category:
   - entrega
 sidebar: false
 article: false
-
 ---
 
 # Exercício Polimorfismo

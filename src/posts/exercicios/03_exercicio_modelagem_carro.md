@@ -32,6 +32,6 @@ next: 04_exercicio_predio_OO
 
 ## Link
 
-link para entrega da tarefa: https://classroom.github.com/a/lDUuceYz
+link para entrega da tarefa: 
 
 <!-- @include: ../../bib/bib.md -->
