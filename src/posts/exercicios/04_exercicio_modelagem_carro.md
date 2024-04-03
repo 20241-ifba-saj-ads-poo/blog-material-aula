@@ -6,7 +6,7 @@ tag:
 category:
   - exercicio
   - entrega
-prev: 04_exercicio_modelagem_carro
+prev: 03_exercicio_predio_OO
 next: 05_exercicio_modelagem_tv
 ---
 

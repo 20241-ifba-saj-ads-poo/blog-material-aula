@@ -6,7 +6,7 @@ tag:
 category:
   - exercicio
   - entrega
-prev: 03_exercicio_predio_OO
+prev: 02_exercicio_predio_estruturado
 next: 04_exercicio_modelagem_carro
 ---
 

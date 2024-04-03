@@ -6,7 +6,7 @@ tag:
 category:
   - exercicio
   - entrega
-prev: 05_exercicio_modelagem_tv
+prev: 04_exercicio_modelagem_carro
 next: 06_exercicio_modelagem_dvd
 ---
 
