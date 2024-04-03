@@ -6,8 +6,8 @@ tag:
 category:
   - exercicio
   - entrega
-prev: 04_exercicio_predio_OO
-next: 06_exercicio_modelagem_dvd
+prev: 05_exercicio_modelagem_tv
+next: 07_exercicio_modelagem_listas
 ---
 
 # Exercício: Modelagem DVD

@@ -7,7 +7,7 @@ category:
   - exercicio
   - entrega
 prev: 01_exercicio_java_caelum
-next: 03_exercicio_modelagem_carro
+next: 03_exercicio_predio_OO
 ---
 
 # Exercício: Area do Prédio

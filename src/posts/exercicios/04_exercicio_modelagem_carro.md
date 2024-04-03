@@ -6,8 +6,8 @@ tag:
 category:
   - exercicio
   - entrega
-prev: 02_exercicio_predio_estruturado
-next: 04_exercicio_predio_OO
+prev: 04_exercicio_modelagem_carro
+next: 05_exercicio_modelagem_tv
 ---
 
 # Exercício: Modelagem Carro

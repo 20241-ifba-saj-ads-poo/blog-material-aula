@@ -6,8 +6,8 @@ tag:
 category:
   - exercicio
   - entrega
-prev: 03_exercicio_modelagem_carro
-next: 05_exercicio_modelagem_tv
+prev: 03_exercicio_predio_OO
+next: 04_exercicio_modelagem_carro
 ---
 
 # Exercício: Area do Prédio

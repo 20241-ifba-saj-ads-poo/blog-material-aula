@@ -7,7 +7,7 @@ category:
   - exercicio
   - entrega
 prev: 05_exercicio_modelagem_tv
-next: 07_exercicio_modelagem_listas
+next: 06_exercicio_modelagem_dvd
 ---
 
 # Exercício: Modelagem TV
