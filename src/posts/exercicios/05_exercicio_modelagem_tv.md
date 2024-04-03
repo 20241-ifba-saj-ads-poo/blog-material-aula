@@ -31,6 +31,6 @@ next: 06_exercicio_modelagem_dvd
 
 ## Link
 
-link para entrega da tarefa: 
+[link para entrega da tarefa] (https://classroom.github.com/a/3MQoGEYc)
 
 <!-- @include: ../../bib/bib.md -->
