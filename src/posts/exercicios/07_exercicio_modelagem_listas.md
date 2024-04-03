@@ -1,11 +1,12 @@
 ---
 icon: study
-date: 2024-04-02 20:00:00.00 -3
+date: 2024-04-02 20:03:00.00 -3
 tag:
   - java
 category:
   - exercicio
 prev: 06_exercicio_modelagem_dvd
+article: false
 ---
 
 # Exercícios Listas
