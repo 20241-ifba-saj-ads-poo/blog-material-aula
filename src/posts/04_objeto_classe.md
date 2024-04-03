@@ -569,8 +569,8 @@ System.out.println(person);//Escreve Pessoa{nome='Alice', idade=30} no console
 ## Exercícios
 
 - [Exercício Prédio Estruturado](exercicios/02_exercicio_predio_estruturado.md)
-- [Exercício Modelagem Carro](exercicios/03_exercicio_modelagem_carro.md)
-- [Exercício Prédio OO](exercicios/04_exercicio_predio_OO.md)
+- [Exercício Prédio OO](exercicios/03_exercicio_predio_OO.md)
+- [Exercício Modelagem Carro](exercicios/04_exercicio_modelagem_carro.md)
 - [Exercício Modelagem TV](exercicios/05_exercicio_modelagem_tv.md)
 - [Exercício Modelagem DVD](exercicios/06_exercicio_modelagem_dvd.md)
 
