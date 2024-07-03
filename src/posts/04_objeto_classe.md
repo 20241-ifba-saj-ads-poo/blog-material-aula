@@ -470,7 +470,7 @@ return sucesso
 ::: details 
 
 ```java
-void transfere(double quantidade, Conta destino){
+void transferir(Conta destino, double quantidade){
   if(this.saca(quantidade)){
     destino.deposita(quantidade);
   }   
