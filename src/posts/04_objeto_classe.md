@@ -521,7 +521,7 @@ public static void main(String args[]) {
 class Conta {
   //...
   public boolean equals(Conta outraConta) {
-    return this.cliente.equals(outraConta.cliente) && this.numero == outraConta.numero;
+    return this.cliente.equals(outraConta.cliente) && this.saldo == outraConta.saldo;
   }
   //...
   
