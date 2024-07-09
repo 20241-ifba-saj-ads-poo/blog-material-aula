@@ -53,7 +53,9 @@ toc: "Nesta Página",
   // hotReload: true,
 
   plugins: {
-    blog: true,
+    blog: {
+      excerpt : false
+    },
 
     // install @waline/client before enabling it
     // WARNING: This is a test server for demo only.
@@ -143,7 +145,6 @@ toc: "Nesta Página",
     pwa: {
     favicon: "/favicon.ico",
     cacheHTML: true,
-    cachePic: true,
     appendBase: true,
     apple: {
     icon: "/assets/icon/icon-152.png",
