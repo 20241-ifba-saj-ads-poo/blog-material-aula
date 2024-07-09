@@ -7,7 +7,7 @@ category:
   - exercicio
   - entrega
 prev: 02_exercicio_predio_estruturado
-next: 04_exercicio_modelagem_carro
+next: 04_exercicio_data_OO
 ---
 
 # Exercício: Area do Prédio
