@@ -21,3 +21,20 @@ next: 04_exercicio_modelagem_carro
     - Toda `Data` deve poder exibir suas informações no formato Texto.
     
 @[code](../code/exercicioDataOO/App.java)
+
+Saida esperada 
+
+```console
+Data 1: 1/1/2024 | Data 2: 2/1/2024
+data1.anterior(data2): true
+data1.posterior(data2): false
+data1.igual(data2): false
+Data 1 :2/1/2024| Data 2 2/1/2024
+data1.anterior(data2): false
+data1.posterior(data2): false
+data1.igual(data2): true
+Data 1 :3/1/2024| Data 2 2/1/2024
+data1.anterior(data2): false
+data1.posterior(data2): true
+data1.igual(data2): false
+```
