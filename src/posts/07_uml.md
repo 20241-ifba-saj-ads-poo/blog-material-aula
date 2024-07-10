@@ -6,6 +6,7 @@ tag:
 category:
   - aula
 order: 7
+article: false
 ---
 
 # Estereótipo de uma Classe em UML

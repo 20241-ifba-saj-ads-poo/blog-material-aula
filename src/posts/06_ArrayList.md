@@ -6,7 +6,8 @@ tag:
   - lista
 category:
   - aula
-order: 5
+order: 6
+article: false
 ---
 
 # Trabalhando com ArrayList
