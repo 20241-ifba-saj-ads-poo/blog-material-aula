@@ -41,5 +41,4 @@ data1.igual(data2): false
 
 ## Link para Entrega
 
-[https://classroom.github.com/a/7suyn8vC](https://classroom.github.com/a/7suyn8vC)
-
+[Entrega](https://classroom.github.com/a/ZEH39nbx)
