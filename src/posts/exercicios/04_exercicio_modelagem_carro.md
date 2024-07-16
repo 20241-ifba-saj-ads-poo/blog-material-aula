@@ -32,6 +32,6 @@ next: 05_exercicio_modelagem_tv
 
 ## Link
 
-link para entrega da tarefa: 
+[link para entrega da tarefa](https://classroom.github.com/a/0bij0dcq)
 
 <!-- @include: ../../bib/bib.md -->

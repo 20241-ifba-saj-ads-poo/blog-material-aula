@@ -14,7 +14,7 @@ next: 06_exercicio_modelagem_dvd
 
 [^Takenami]
 
-1. Utilizando os conhecimentos de O.O. construa um programa utilizando as informações abaixo. 
+1. Utilizando os conhecimentos de O.O.,  e os conceitos de encapsulamento,  construa um programa utilizando as informações abaixo. 
 
     Uma televisão possui as seguintes características:
     - tamanho de tela (em polegadas);
@@ -31,6 +31,6 @@ next: 06_exercicio_modelagem_dvd
 
 ## Link
 
-[link para entrega da tarefa](https://classroom.github.com/a/3MQoGEYc)
+[link para entrega da tarefa](https://classroom.github.com/a/i81oeny5)
 
 <!-- @include: ../../bib/bib.md -->
