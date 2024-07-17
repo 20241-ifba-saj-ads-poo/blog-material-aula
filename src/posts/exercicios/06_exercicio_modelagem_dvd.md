@@ -35,6 +35,28 @@ link para entrega da tarefa:
 
 ::: details 
 
+<figure>
+
+```plantuml
+@startuml
+class DVD{
+    + boolean ligado
+    - int volume
+    - Filme filme
+    - boolean emPlay
+}
+class Filme{
+   - String nome;
+   - String categoria;
+   - double duracao;
+}
+DVD --> Filme
+@enduml
+
+```
+</figure>
+
+
 @[code](../code/modelagemDVD/DVD.java)
 
 @[code](../code/modelagemDVD/Filme.java)

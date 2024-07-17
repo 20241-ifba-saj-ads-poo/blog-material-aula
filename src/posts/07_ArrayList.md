@@ -93,11 +93,11 @@ aulas.forEach(aula -> {
 
 ## Exemplo sistema banco
 
-@[code](./code/listExecmploBanco/Conta.java)
+@[code](./code/listExemploBanco/Conta.java)
 
-@[code](./code/listExecmploBanco/Agencia.java)
+@[code](./code/listExemploBanco/Agencia.java)
 
-@[code](./code/listExecmploBanco/UsuarioAgencia.java)
+@[code](./code/listExemploBanco/App.java)
 
 ## Referências
 
