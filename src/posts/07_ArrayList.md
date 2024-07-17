@@ -1,13 +1,12 @@
 ---
 icon: edit
-date: 2024-07-10 17:40:00.00 -3
+date: 2024-07-17 20:00:00.00 -3
 tag:
   - vetor
   - lista
 category:
   - aula
-order: 6
-article: false
+order: 7
 ---
 
 # Trabalhando com ArrayList
