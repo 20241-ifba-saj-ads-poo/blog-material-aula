@@ -1,11 +1,11 @@
 package br.edu.ifba.saj.ads.poo.sistemabanco;
 public class Conta {
-    int numero;
-    String cliente;
-    double saldo;
-    double limite;
+    private int numero;
+    private String cliente;
+    private double saldo;
+    private double limite;
 
-    Conta(int numero, String cliente) {
+    public Conta(int numero, String cliente) {
         if (numero < 0) {
             this.numero = 999;
         } else {
@@ -16,7 +16,7 @@ public class Conta {
         this.limite = 100;
     }
 
-    Conta(int numero, String cliente, double saldo, double limite) {
+    public Conta(int numero, String cliente, double saldo, double limite) {
         this(numero, cliente);
         this.saldo = saldo;
         this.limite = limite;
