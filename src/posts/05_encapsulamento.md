@@ -7,7 +7,7 @@ tag:
   - construtor
 category:
   - aula
-order: 6
+order: 5
 ---
 
 # Encapsulamento

@@ -1,12 +1,11 @@
 ---
 icon: study
-date: 2024-04-02 20:03:00.00 -3
+date: 2024-07-17 20:03:00.00 -3
 tag:
   - java
 category:
   - exercicio
 prev: 06_exercicio_modelagem_dvd
-article: false
 ---
 
 # Exercícios Listas
@@ -43,7 +42,8 @@ article: false
    @enduml
 
    ```
-
+   ::: 
+ <!-- 
    @[code](../code/exercicioListas/turmas/Escola.java)
 
    @[code](../code/exercicioListas/turmas/Turma.java)
@@ -52,7 +52,7 @@ article: false
 
    @[code](../code/exercicioListas/turmas/Professor.java)
 
-   ::: 
+-->
 
 1. **Sistema de Loja de Roupas:**
    Crie um sistema para gerenciar uma loja de roupas. A loja tem vários departamentos, como roupas masculinas, femininas e infantis. Cada departamento contém vários produtos (roupas) com informações como preço, tamanho e cor. Os clientes podem adicionar produtos ao carrinho de compras e finalizar suas compras. Implemente funcionalidades para calcular o total das compras e listar os produtos em um carrinho.
@@ -60,6 +60,7 @@ article: false
 1. **Hierarquia Militar Simplificada:**
    Modele uma simplificação da hierarquia do Exército Brasileiro. Existem diferentes patentes militares, como Soldado, Cabo, Sargento, Tenente e Capitão. Cada patente tem atributos como nome, número de identificação e tempo de serviço. Os soldados reportam aos cabos, os cabos aos sargentos e assim por diante. Implemente métodos para listar os subordinados de um militar em uma patente superior e seu superior imediato.
    1. Fazer remoção de subordinado na troca do imediato.
+<!--
    ::: details 
    @[code](../code/exercicioListas/militar/MontarPelotao.java)
 
@@ -67,7 +68,7 @@ article: false
 
    @[code](../code/exercicioListas/militar/Cabo.java)
    ::: 
-
+ -->
 1. **Sistema de Reservas de Hotéis:**
    Desenvolva um sistema de reservas de hotéis. Cada hotel possui vários quartos, e cada quarto tem diferentes categorias, como luxo, padrão, suíte, etc. Os clientes podem fazer reservas para datas específicas e escolher um tipo de quarto. O sistema deve rastrear a disponibilidade de quartos e calcular o preço total da reserva com base na categoria do quarto e no número de noites.
 
