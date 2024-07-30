@@ -99,6 +99,38 @@ aulas.forEach(aula -> {
 
 @[code](./code/listExemploBanco/App.java)
 
+## Get com listas
+
+::: code-tabs#shell
+
+@tab ArrayList
+
+```java
+    public ArrayList<Conta> getContas() {
+        return contas;
+    }
+
+    //main
+
+    agencia.getContas().add(new Conta())//?
+```
+
+@tab List.copyOf
+
+```java
+
+    import java.util.List;
+    //...
+    public List<Conta> getContas() {
+        return List.copyOf(contas);
+    }
+    
+    //main
+    agencia.getContas().add(new Conta())//?
+```
+
+::: 
+
 ## Referências
 
 <!-- @include: ../bib/bib.md -->
