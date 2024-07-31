@@ -3,8 +3,8 @@ package posts.code.exercicioListas.militar;
 import java.util.Objects;
 
 public class Soldado {
-    private String nome;
     private int identificacao;
+    private String nome;
     private int tempoServico;
     private Cabo imediato;
 
