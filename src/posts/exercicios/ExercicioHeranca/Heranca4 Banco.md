@@ -18,7 +18,7 @@ category:
 1. Adicione um método na classe `Conta`, que atualiza essa conta de acordo com uma taxa percentual fornecida    
 1. Crie duas subclasses da classe `Conta`: `ContaCorrente` e `ContaPoupanca`. Ambas terão o método atualiza reescrito: A `ContaCorrente` deve atualizar-se com o dobro da taxa e a `ContaPoupanca` deve atualizar-se com o triplo da taxa. Além disso, a `ContaCorrente` deve reescrever o método deposita, a fim de retirar uma taxa bancária de dez centavos de cada depósito.
     - Crie as classes `ContaCorrente` e `ContaPoupanca`. Ambas são filhas da classe `Conta`;
-    - Reescreva o método atualiza na classe ContaCorrente, seguindo o enunciado;
+    - Reescreva o método atualiza na classe `ContaCorrente`, seguindo o enunciado;
     - Repare que, para acessar o atributo saldo herdado da classe `Conta`, você vai precisar trocar o modificador de visibilidade de saldo para protected;
     - Reescreva o método atualiza na classe `ContaPoupanca`, seguindo o enunciado:
     - Na classe `ContaCorrente`, reescreva o método deposita para descontar a taxa bancária de dez centavos:        
