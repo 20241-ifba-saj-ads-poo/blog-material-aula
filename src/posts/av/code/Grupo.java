@@ -34,7 +34,7 @@ public class Grupo {
     }
 
     /*
-    //para agregação
+    //para composição
     public Tarefa addTarefas() {
         Tarefa tarefa = new Tarefa(this);
         this.tarefas.add(tarefa);

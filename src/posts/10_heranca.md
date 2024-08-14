@@ -262,7 +262,7 @@ Além disso, não só as subclasses, mas também as outras classes, podem acessa
 :::
 
 
-Da mesma maneira, podemos ter uma classe `Diretor` que estenda `Gerente` e a classe `Presidente` pode estender diretamente de `Funcionario`.
+Da mesma maneira, podemos ter uma classe `Diretor` que estenda `Gerente` e a classe `Engenheiro` pode estender diretamente de `Funcionario`.
 
 Fique claro que essa é uma decisão de negócio. Se `Diretor` vai estender de `Gerente` ou não, vai depender se, para você, `Diretor` **é um** `Gerente`.
 

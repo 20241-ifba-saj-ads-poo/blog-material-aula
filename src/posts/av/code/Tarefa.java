@@ -9,7 +9,7 @@ public class Tarefa {
         setId(++Tarefa.quantidade);
     }
 
-    //para agregação
+    //para composição
     /*
     public Tarefa(Grupo grupo) {
         this.grupo = grupo;

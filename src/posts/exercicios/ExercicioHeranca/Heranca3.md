@@ -1,13 +1,10 @@
 ---
 icon: study
-date: 2023-11-16 19:53:00.00 -3
+date: 2024-08-14 19:10:00.00 -3
 tag:
   - heranca
 category:
   - exercicio
-sidebar: false
-article: false
-
 ---
 
 # Exercício de Herança 3
