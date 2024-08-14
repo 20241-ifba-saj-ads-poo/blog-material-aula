@@ -5,6 +5,8 @@ tag:
   - heranca
 category:
   - exercicio
+sidebar: false
+article: false
 ---
 
 # Exercício de Herança 3
