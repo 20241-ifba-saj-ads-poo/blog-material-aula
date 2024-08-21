@@ -5,12 +5,9 @@ tag:
   - heranca
 category:
   - exercicio
-sidebar: false
-article: false
 ---
 
 # Exercício de Herança 3
-
 
 1. Verdadeiro ou Falso, se falso justifique.
     - [ ] Em orientação a objetos herança é a capacidade de uma classe definir o seu comportamento e sua estrutura aproveitando definições de outra classe, normalmente conhecida como classe base ou classe pai.

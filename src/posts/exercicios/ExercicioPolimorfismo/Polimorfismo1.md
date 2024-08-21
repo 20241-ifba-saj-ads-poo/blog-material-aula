@@ -1,13 +1,11 @@
 ---
 icon: study
-date: 2023-12-14 19:00:00.00 -3
+date: 2024-08-21 19:00:00.00 -3
 tag:
   - heranca
 category:
   - exercicio
   - entrega
-sidebar: false
-article: false
 ---
 
 # Exercício Polimorfismo
@@ -62,7 +60,7 @@ adapitado de [^Takenami]
 
 ## Entrega
 
-[Link](https://classroom.github.com/a/YGCXH8ax)
+[Link](https://classroom.github.com/a/zlSwPpFi)
 
 <!-- @include: ../../../bib/bib.md -->
 
