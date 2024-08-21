@@ -26,12 +26,12 @@ class Circulo{
 class Retangulo{
     desenhar()
 }
-class Quadrado{
+class Quadrado extends Retangulo{
     desenhar()
 }
 Figura <|-- Circulo
 Figura <|-- Retangulo
-Figura <|-- Quadrado
+
 @enduml
 ```
 
@@ -80,18 +80,9 @@ Animal <|-- Passaro
     - Todas as subclasses implementam o método mover
 - O programa envia a mensagem "mover" para os 3 objetos
 
-<code-group>
-<code-block title="Foreach">
+::: tabs
 
-```java
-List<Animal> animais = List.of(new Peixe(), new Anfibio(), new Passaro());
-for(Animal animal : animais ) {
-    animal.mover();//como será o movimento desse animal?
-}
-```
-</code-block>
-
-<code-block title="for">
+@tab for
 
 ```java
 //...
@@ -102,9 +93,16 @@ for(int i = 0; i < 3 ; i++){
 }
 //...
 ```
+@tab Foreach
 
-</code-block>
-</code-group>
+```java
+List<Animal> animais = List.of(new Peixe(), new Anfibio(), new Passaro());
+for(Animal animal : animais ) {
+    animal.mover();//como será o movimento desse animal?
+}
+```
+
+::: 
 
 
 
