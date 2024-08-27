@@ -101,7 +101,7 @@ aulas.forEach(aula -> {
 
 ## Get com listas
 
-::: code-tabs#shell
+::: tabs
 
 @tab ArrayList
 

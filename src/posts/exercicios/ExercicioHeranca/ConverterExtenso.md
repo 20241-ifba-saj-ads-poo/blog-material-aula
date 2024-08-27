@@ -1,14 +1,11 @@
 ---
 icon: study
-date: 2023-11-16 19:50:00.00 -3
+date: 2024-08-21 19:50:00.00 -3
 tag:
   - heranca
 category:
   - exercicio
   - entrega
-sidebar: false
-article: false
-
 ---
 
 # Exercício: Converter para Extenso
@@ -49,4 +46,4 @@ Analisando o processo de conversão de um numero inteiro para o seu corresponden
     ```
 ## Link
 
-[Entrega](https://classroom.github.com/a/7Uze4wxy)
+[Entrega](https://classroom.github.com/a/Dawow9Fx)

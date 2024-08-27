@@ -1,16 +1,16 @@
 ---
 icon: study
-date: 2024-08-14 19:10:00.00 -3
+date: 2024-08-28 19:10:00.00 -3
 tag:
   - heranca
+  - abstratas
+  - interface
 category:
   - exercicio
-sidebar: false
 article: false
 ---
 
-# Exercício de Herança 3
-
+# Exercício Herança classes Abstratas e Interface
 
 1. Verdadeiro ou Falso, se falso justifique.
     - [ ] Em orientação a objetos herança é a capacidade de uma classe definir o seu comportamento e sua estrutura aproveitando definições de outra classe, normalmente conhecida como classe base ou classe pai.

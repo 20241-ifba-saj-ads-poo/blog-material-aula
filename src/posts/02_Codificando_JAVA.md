@@ -469,8 +469,9 @@ void imprimeArray (int[] numeros ) {
 
 Para acessar todos os elementos de um array, é possível aplicar o comando for com uma sintaxe um pouco diferente.
 
-<code-group>
-<code-block title="Foreach">
+::: tabs
+
+@tab Foreach
 
 ```java
 void imprimeArray (int[] numeros ) {
@@ -480,9 +481,8 @@ void imprimeArray (int[] numeros ) {
 }
 ```
 
-</code-block>
 
-<code-block title="Equivalente">
+@tab Equivalente
 
 ```java
 void imprimeArray (int[] numeros ) {
@@ -493,8 +493,8 @@ void imprimeArray (int[] numeros ) {
 }
 ```
 
-</code-block>
-</code-group>
+
+::: 
 
 
 
