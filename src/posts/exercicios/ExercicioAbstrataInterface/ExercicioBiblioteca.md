@@ -7,7 +7,6 @@ tag:
   - interface
 category:
   - exercicio
-article: false
 ---
 
 # Exercício Sistema Biblioteca
