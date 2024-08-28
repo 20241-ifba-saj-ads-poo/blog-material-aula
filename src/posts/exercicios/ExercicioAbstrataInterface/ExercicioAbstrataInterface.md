@@ -1,13 +1,12 @@
 ---
 icon: study
-date: 2024-08-28 19:10:00.00 -3
+date: 2024-08-28 19:20:00.00 -3
 tag:
   - heranca
   - abstratas
   - interface
 category:
   - exercicio
-article: false
 ---
 
 # Exercício Herança classes Abstratas e Interface
