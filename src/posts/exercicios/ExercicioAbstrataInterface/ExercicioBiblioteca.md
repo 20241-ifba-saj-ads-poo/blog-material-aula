@@ -35,3 +35,7 @@ Classes Concretas: Crie classes concretas para cada tipo de item (Livro, Revista
 Classe Principal: Crie uma classe principal para testar o sistema, instanciando objetos de diferentes tipos de itens, realizando empréstimos e devoluções e calculando as multas por atraso.
 
 Classe Biblioteca: Crie uma classe Biblioteca para gerenciar a lista de itens disponíveis e emprestados.
+
+
+[Entrega](https://classroom.github.com/a/XrG9BUcq)
+
