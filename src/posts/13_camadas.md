@@ -90,7 +90,7 @@ Considere um sistema de gerenciamento de estoque de uma loja que um operador uti
 
 - **Camada de Apresentação:** Um formulário no aplicativo que permite ao operador adicionar um novo produto ao inventário, exibindo campos como nome, quantidade e preço.
 
-- **Camada de Negócio:** Ao tentar remover um produto cuja quantidade no estoque não é zero, a camada de negócio detecta essa condição e gera uma exceção, informando que a operação não é permitida.
+- **Camada de Negócio:** Ao tentar remover um produto cuja quantidade no estoque é zero, a camada de negócio detecta essa condição e gera uma exceção, informando que a operação não é permitida.
 
 - **Camada de Dados:** Salvar as informações do novo produto no banco de dados quando o operador o adiciona via interface.
 
