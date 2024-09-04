@@ -202,6 +202,8 @@ Exemplo de dependências que o maven e o Spring Boot configuram automaticamente.
 </dependency>
 ```
 
+![Dependências do Spring Boot](./img/springboot.png)
+
 ### Aplicativos Autônomos
 
 O Spring Boot facilita a criação de aplicativos autônomos, que podem ser executados diretamente a partir de um arquivo .jar. Isso elimina a necessidade de um servidor de aplicação externo, como o Tomcat ou o Jetty, pois ele vem embutido no projeto. Ao rodar um único comando, como java -jar, o aplicativo entra em execução.
