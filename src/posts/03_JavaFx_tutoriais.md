@@ -77,3 +77,4 @@ Clique com o lado direita do mouse e escolha a opção `Open in Scene Builder`
 ## JavaFX tutorial
 
 - https://www.javatpoint.com/javafx-tutorial
+- [Spring boot + javafx](https://ivanqueiroz.dev/posts/2024/2024-01-27-conectando-o-poder-do-spring-boot-%C3%A0-experi%C3%AAncia-visual-do-javafx-um-guia-completo/)
