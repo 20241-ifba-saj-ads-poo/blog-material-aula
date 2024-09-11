@@ -1,6 +1,6 @@
 ---
 icon: study
-date: 2024-09-1 19:00:00.00 -3
+date: 2024-09-11 19:00:00.00 -3
 tag:
   - exception
 category:
