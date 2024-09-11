@@ -1,13 +1,11 @@
 ---
 icon: study
-date: 2023-12-14 19:50:00.00 -3
+date: 2024-09-11 19:01:00.00 -3
 tag:
   - exception
 category:
   - exercicio
   - entrega
-sidebar: false
-article: false
 ---
 
 # Exercício AutenticacaoInvalidaException
@@ -23,5 +21,5 @@ Crie um código que atenda a seguinte descrição:
 
 ## Entrega
 
-[Link](https://classroom.github.com/a/ppCOwVrv)
+[Link](https://classroom.github.com/a/Xz0npEJY)
 
