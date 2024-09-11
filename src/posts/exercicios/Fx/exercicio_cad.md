@@ -6,8 +6,6 @@ tag:
 category:
   - exercicio
   - entrega
-sidebar: false
-article: false
 ---
 
 # Exercício Cadastro JavaFX
