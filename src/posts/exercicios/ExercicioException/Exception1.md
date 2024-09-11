@@ -1,14 +1,11 @@
 ---
 icon: study
-date: 2023-12-14 19:40:00.00 -3
+date: 2024-09-1 19:00:00.00 -3
 tag:
   - exception
 category:
   - exercicio
   - entrega
-sidebar: false
-article: false
-
 ---
 
 # Exercícios sobre Exception (IllegalArgumentException, SaldoInsufucienteException)
