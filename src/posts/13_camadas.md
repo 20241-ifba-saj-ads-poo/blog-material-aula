@@ -170,7 +170,7 @@ Exemplo de POM.xml
     </dependencies>
 </project>
 ```
-
+<!--
 ## Spring Boot
 
 O Spring Boot é um framework de código aberto que visa simplificar o desenvolvimento de aplicativos Java. Ele foi projetado para permitir a criação rápida de aplicativos autônomos e prontos para produção, com mínima configuração manual. O Spring Boot abstrai muitas das complexidades envolvidas na configuração de projetos tradicionais, oferecendo uma experiência de desenvolvimento mais ágil e produtiva.
@@ -245,3 +245,5 @@ O Spring Data JPA simplifica a criação do repositório. Basta criar uma interf
 Exemplo de Classe Principal Spring Boot
 
 @[code](../includes/demo/src/main/java/br/edu/ifba/saj/ads/demo/DemoApplication.java)
+
+-->
