@@ -65,3 +65,6 @@
 
 
 [^ZUP_DATA]:API de data do Java: domine o uso de data no seu código [https://www.zup.com.br/blog/api-de-data-do-java](https://www.zup.com.br/blog/api-de-data-do-java)
+
+[^DEVMEDIA_ASSYNC]:Processamento assíncrono em Java com Future e FutureTask [https://www.devmedia.com.br/processamento-assincrono-em-java-com-future-e-futuretask/33851](https://www.devmedia.com.br/processamento-assincrono-em-java-com-future-e-futuretask/33851)
+
