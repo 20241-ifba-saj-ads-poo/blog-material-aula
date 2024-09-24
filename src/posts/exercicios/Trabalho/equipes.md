@@ -12,7 +12,7 @@ category:
 
 1. DOUGLAS CHAVES SANTOS ARAUJO ( 20231TADSSAJ0027 )
 1. ERICK BORGES DOS SANTOS ( 20231TADSSAJ0015 )
-1. JOÃO VÍTOR BUISINE SILVA ( 20222TADSSAJ0012 )
+1. 
 1. Kessia Mary Bonfim dos Santos ( 20191TADSSAJ0020 )
 1. Renan Santos de Jesus ( 20192TADSSAJ0029 )
 1. TAYRLON GABRIEL SANTOS DA CRUZ ( 20232TADSSAJ0030 )
@@ -32,7 +32,7 @@ category:
 |<ul><li>ANNA VICTÓRIA SANTANA ALVES ( 20231TADSSAJ0030 )</li><li>GUILHERME HENRIQUE MENEZES CURSINO ( 20231TADSSAJ0012 )</li></ul>| Sistema de Gerenciamento de Clientes para uma Academia|
 |<ul><li>BRUNO AMORIM SANTOS ( 20231TADSSAJ0003 )</li><li>GABRIEL DOS ANJOS OLIVEIRA ( 20231TADSSAJ0008 )</li></ul>| Sistema de Controle de Frota de Veículos|
 |<ul><li>IGOR CAUAN ALVES SANTOS ( 20231TADSSAJ0006 )</li><li>THIAGO SAMPAIO SANTOS ( 20231TADSSAJ0005 )</li></ul>| Sistema de Controle de Projetos de Engenharia|
-|<ul><li>RONALDO CORREIA COUTO ( 20222TADSSAJ0007 )</li><li></li></ul>| Sistema de Agendamento de Consultas Médicas|
+|<ul><li>RONALDO CORREIA COUTO ( 20222TADSSAJ0007 )</li><li>JOÃO VÍTOR BUISINE SILVA ( 20222TADSSAJ0012 )</li></ul>| Sistema de Agendamento de Consultas Médicas|
 |<ul><li>Renan Santos de Jesus ( 20192TADSSAJ0029 )</li><li></li></ul>| Sistema de Controle de Inventário de Ferramentas|
 |<ul><li></li><li></li></ul>| Sistema de Controle de Aluguel de Imóveis|
 |<ul><li></li><li></li></ul>| Sistema de Cadastro de Pacientes para Exames Laboratoriais|
