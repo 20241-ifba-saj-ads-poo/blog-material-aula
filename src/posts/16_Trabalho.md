@@ -72,7 +72,7 @@ O barema a seguir será utilizado para avaliar a implementação do projeto. Cad
    - **Segregação Correta das Funções (10 pontos)**: A separação entre as camadas de apresentação, negócio e dados está clara, com cada uma desempenhando corretamente suas responsabilidades.
    - **Comunicação Entre as Camadas (10 pontos)**: A comunicação entre as camadas é feita de maneira fluida e correta, utilizando métodos e estruturas apropriadas para transferir dados entre as camadas.
 
-#### 5. **Documentação e Boas Práticas - 10 pontos**
+#### 5. **Boas Práticas - 10 pontos**
    - **Boas Práticas de Programação (10 pontos)**: O código segue boas práticas, incluindo nomeação adequada de variáveis, métodos e classes, além de evitar duplicação de código e garantir uma organização clara do projeto.
 
 
@@ -352,3 +352,4 @@ Criar um sistema para gerenciar pacotes de viagens oferecidos por uma agência. 
 - `PacoteIndisponivelException`.
 - `PagamentoIncompletoException`.
 
+[Equipes](./exercicios/Trabalho/equipes.md)
