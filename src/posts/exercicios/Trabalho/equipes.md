@@ -10,7 +10,6 @@ category:
 
 # Divisão do trabalho
 
-1. DOUGLAS CHAVES SANTOS ARAUJO ( 20231TADSSAJ0027 )
 1. Kessia Mary Bonfim dos Santos ( 20191TADSSAJ0020 )
 1. Renan Santos de Jesus ( 20192TADSSAJ0029 )
 1. TAYRLON GABRIEL SANTOS DA CRUZ ( 20232TADSSAJ0030 )
@@ -33,7 +32,7 @@ category:
 |<ul><li>RONALDO CORREIA COUTO ( 20222TADSSAJ0007 )</li><li>JOÃO VÍTOR BUISINE SILVA ( 20222TADSSAJ0012 )</li></ul>| Sistema de Agendamento de Consultas Médicas|
 |<ul><li>Renan Santos de Jesus ( 20192TADSSAJ0029 )</li><li></li></ul>| Sistema de Controle de Inventário de Ferramentas|
 |<ul><li>ERICK BORGES DOS SANTOS ( 20231TADSSAJ0015 )</li><li></li></ul>| Sistema de Controle de Aluguel de Imóveis|
-|<ul><li></li><li></li></ul>| Sistema de Cadastro de Pacientes para Exames Laboratoriais|
+|<ul><li>DOUGLAS CHAVES SANTOS ARAUJO ( 20231TADSSAJ0027 )</li><li></li></ul>| Sistema de Cadastro de Pacientes para Exames Laboratoriais|
 |<ul><li></li><li></li></ul>| Sistema de Controle de Produção para uma Fábrica|
 |<ul><li></li><li></li></ul>| Sistema de Controle de Despesas Domésticas|
 |<ul><li></li><li></li></ul>| Sistema de Gerenciamento de Pacotes de Viagem|
