@@ -1,0 +1,44 @@
+```plantuml
+@startuml
+
+skinparam ranksep 10
+skinparam nodesep 200
+
+rectangle Chaves{
+    storage c1
+    storage c2
+    storage c3
+    storage c4
+    storage c5
+    storage c6
+}
+
+rectangle Valores{
+    rectangle v1
+    rectangle v2
+    rectangle v3
+    rectangle v4
+    rectangle v5
+}
+
+
+c1-[hidden]-c2
+c2-[hidden]-c3
+c3-[hidden]-c4
+c4-[hidden]-c5
+c5-[hidden]-c6
+
+v1-[hidden]-v2
+v2-[hidden]-v3
+v3-[hidden]-v4
+v4-[hidden]-v5
+
+c1-[norank]->v1
+c2-[norank]->v2
+c3-[norank]->v3
+c4-[norank]->v3
+c5-[norank]->v4
+c6-[norank]->v5
+
+@enduml
+```

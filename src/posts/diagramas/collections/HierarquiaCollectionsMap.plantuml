@@ -1,0 +1,14 @@
+```plantuml
+@startuml
+skinparam linetype ortho
+
+interface Map
+interface SortedMap implements Map 
+
+class HashMap implements Map 
+class Hashtable implements Map 
+class Properties extends Hashtable 
+class TreeMap  implements SortedMap 
+
+@enduml
+```

@@ -121,21 +121,7 @@ A hierarquia da Collections Framework tem uma segunda árvore. São as classes e
 
 <figure>
 
-```plantuml
-
-@startuml
-skinparam linetype ortho
-
-interface Map
-interface SortedMap implements Map 
-
-class HashMap implements Map 
-class Hashtable implements Map 
-class Properties extends Hashtable 
-class TreeMap  implements SortedMap 
-
-@enduml
-```
+<!-- @include: ./diagramas/collections/HierarquiaCollectionsMap.plantuml -->
 
 <figcaption>Hierarquia de mapas.</figcaption>
 </figure>
@@ -299,73 +285,18 @@ java.util.Map é um mapa, pois é possível usá-lo para mapear uma chave a um v
 
 <figure>
 
-```plantuml
-@startuml
-
-skinparam ranksep 10
-skinparam nodesep 200
-
-rectangle Chaves{
-    storage c1
-    storage c2
-    storage c3
-    storage c4
-    storage c5
-    storage c6
-}
-
-rectangle Valores{
-    rectangle v1
-    rectangle v2
-    rectangle v3
-    rectangle v4
-    rectangle v5
-}
-
-
-c1-[hidden]-c2
-c2-[hidden]-c3
-c3-[hidden]-c4
-c4-[hidden]-c5
-c5-[hidden]-c6
-
-v1-[hidden]-v2
-v2-[hidden]-v3
-v3-[hidden]-v4
-v4-[hidden]-v5
-
-c1-[norank]->v1
-c2-[norank]->v2
-c3-[norank]->v3
-c4-[norank]->v3
-c5-[norank]->v4
-c6-[norank]->v5
-
-@enduml
-```
+<!-- @include: ./diagramas/collections/RepresentacaoChaveValor.plantuml -->
 
 <figcaption>Chave-Valor.</figcaption>
 </figure>
+
 O método `put(Object, Object)` da interface `Map` recebe a chave e o valor de uma nova associação. Para saber o que está associado a um determinado objeto-chave, passa-se esse objeto no método `get(Object)`.
 
 Sem dúvida essas são as duas operações principais e mais frequentes realizadas sobre um mapa.
 
 Observe o exemplo: criamos duas contas correntes e as colocamos em um mapa associando-as aos seus donos.
 
-```java
-ContaCorrente c1 = new ContaCorrente();
-c1.deposita(10000);
-ContaCorrente c2 = new ContaCorrente();
-c2.deposita(3000);
-// cria o mapa
-Map<String, ContaCorrente> mapaDeContas = new HashMap<>();
-// adiciona duas chaves e seus respectivos valores
-mapaDeContas.put("diretor", c1);
-mapaDeContas.put("gerente", c2);
-// qual a conta do diretor? (sem casting!)
-ContaCorrente contaDoDiretor = mapaDeContas.get("diretor");
-System.out.println(contaDoDiretor.getSaldo());
-```
+@[code](./code/collections/ContaCorrenteMap.java)
 
 Um mapa é muito usado para "indexar" objetos de acordo com determinado critério, para podermos buscar esse objetos rapidamente. Um mapa costuma aparecer juntamente com outras coleções, para poder realizar essas buscas!
 
@@ -383,17 +314,8 @@ Um mapa importante é a tradicional classe `Properties`,que mapeia strings e é 
 A `Properties` possui, também, métodos para ler e gravar o mapeamento com base em um arquivo texto,
 facilitando muito a sua persistência.
 
-```java
-Properties config = new Properties();
-config.setProperty("database.login", "scott");
-config.setProperty("database.password", "tiger");
-config.setProperty("database.url","jdbc:mysql:/localhost/teste");
-// muitas linhas depois...
-String login = config.getProperty("database.login");
-String password = config.getProperty("database.password");
-String url = config.getProperty("database.url");
-DriverManager.getConnection(url, login, password);
-```
+@[code](./code/collections/PropertiesExemplo.java)
+
 A classe `Properties` foi desenhada com o propósito de trabalhar com a associação entre Strings.
 
 ## Prática de Collections
@@ -428,57 +350,29 @@ A classe `Properties` foi desenhada com o propósito de trabalhar com a associa�
 
     Esse é um excelente exemplo de bom uso de interfaces, afinal, de que importa como a coleção funciona? O que queremos é uma coleção qualquer, isso é suficiente para os nossos propósitos! Nosso código está com baixo acoplamento em relação a estrutura de dados utilizada: podemos trocá-la facilmente.
 
-    Esse é um código extremamente elegante e fexível. Com o tempo você vai reparar que as pessoas tentam programar sempre se referindo a essas interfaces menos específicas, na medida do possível: métodos costumam receber e devolver Collections, Lists e Sets em vez de referenciar diretamente uma implementação. É o mesmo que ocorre com o uso de `InputStream` e` OutputStream`: eles são o suficiente, não há porque forçar o uso de algo mais específico.
+    Esse é um código extremamente elegante e flexível. Com o tempo você vai reparar que as pessoas tentam programar sempre se referindo a essas interfaces menos específicas, na medida do possível: métodos costumam receber e devolver Collections, Lists e Sets em vez de referenciar diretamente uma implementação. É o mesmo que ocorre com o uso de `InputStream` e` OutputStream`: eles são o suficiente, não há porque forçar o uso de algo mais específico.
 
     Obviamente, algumas vezes não conseguimos trabalhar dessa forma e precisamos usar uma interface mais específica ou mesmo nos referir ao objeto pela sua implementação para poder chamar alguns métodos. Por exemplo, `TreeSet` tem mais métodos que os definidos em `Set`, assim como `LinkedList` em relação à `List`.
 
-    Dê um exemplo de um caso em que não poderíamos nos referir a uma coleção de elementos como Collection, mas necessariamente por interfaces mais específicas como List ou Set.
+    Dê um exemplo de um caso em que não poderíamos nos referir a uma coleção de elementos como Collection, mas necessariamente por interfaces mais específicas como `List` ou `Set`.
 1. Faça testes com o Map, como visto nesse capítulo:
-    ```java
-    public class TestaMapa {
-        public static void main(String[] args) {
-            Conta c1 = new ContaCorrente();
-            c1.deposita(10000);
-            Conta c2 = new ContaCorrente();
-            c2.deposita(3000);
-            // cria o mapa
-            Map mapaDeContas = new HashMap();
-            // adiciona duas chaves e seus valores
-            mapaDeContas.put("diretor", c1);
-            mapaDeContas.put("gerente", c2);
-            // qual a conta do diretor?
-            Conta contaDoDiretor = (Conta) mapaDeContas.get("diretor");
-            System.out.println(contaDoDiretor.getSaldo());
-        }
-    }
-    ```    
+
+    @[code](./code/collections/TestaMapa.java)
+
     Depois, altere o código para usar o *generics* e não haver a necessidade do casting, além da garantia de que nosso mapa estará seguro em relação a tipagem usada.
     ```java
     // cria o mapa
     Map<String, Conta> mapaDeContas = new HashMap<>();
     ```    
-1. (opcional) Assim como no exercício 1, crie uma comparação entre ArrayList e LinkedList, para ver qual é a mais rápida para se adicionar elementos na primeira posição (list.add(0, elemento)), como por exemplo:
-    ```java
-    public class TestaPerformanceDeAdicionarNaPrimeiraPosicao {
-        public static void main(String[] args) {
-            System.out.println("Iniciando...");
-            long inicio = System.currentTimeMillis();
-            // trocar depois por ArrayList
-            List<Integer> teste = new LinkedList<>();
-            for (int i = 0; i < 30000; i++) {
-                teste.add(0, i);
-            }
-            long fim = System.currentTimeMillis();
-            double tempo = (fim - inicio) / 1000.0;
-            System.out.println("Tempo gasto: " + tempo);
-        }
-    }
-    ```
-    Seguindo o mesmo raciocínio, você pode ver qual é a mais rápida para se percorrer usando o get(índice) (sabemos que o correto seria utilizar o enhanced for ou o Iterator). Para isso, insira 30 mil elementos e depois percorra-os usando cada implementação de List. Perceba que aqui o nosso intuito não é que você aprenda qual é o mais rápido, o importante é perceber que podemos tirar proveito do polimorfismo para nos comprometer apenas com a interface. Depois, quando necessário, podemos trocar e escolher uma implementação mais adequada as nossas necessidades. Qual das duas listas foi mais rápida para adicionar elementos à primeira posição?
-1. (opcional) Crie uma classe Banco que possui uma List de Conta chamada contas. Repare que numa lista de Conta, você pode colocar tanto ContaCorrente quanto ContaPoupanca por causa do polimorfismo. Crie um método void adiciona(Conta c), um método Conta pega(int x) e outro int pegaQuantidadeDeContas(), muito similar à relação anterior de Empresa-Funcionário. Basta usar a sua lista e delegar essas chamadas para os métodos e coleções que estudamos. Como ficou a classe Banco?
-1. (opcional) No Banco, crie um método Conta buscaPorNome(String nome) que procura por uma Conta cujo nome seja equals ao nome dado. Você pode implementar esse método com um for na sua lista de Conta, porém não tem uma performance eficiente. Adicionando um atributo privado do tipo Map<String, Conta> terá um impacto significativo. Toda vez que o método adiciona(Conta c) for invocado, você deve invocar .put(c.getNome(), c) no seu mapa. Dessa maneira, quando alguém invocar o método Conta buscaPorNome(String nome), basta você fazer o get no seu mapa, passando nome como argumento! Note, apenas, que isso é só um exercício! Dessa forma você não poderá ter dois clientes com o mesmo nome nesse banco, o que sabemos que não é legal. Como ficaria sua classe Banco com esse Map?
-1. (opcional, avançado) Crie o método hashCode para a sua conta, de forma que ele respeite o equals de que duas contas são equals quando tem o mesmo número. Felizmente para nós, o próprio Eclipse já vem com um criador de equals e hashCode que os faz de forma consistente. Na classe Conta, use o ctrl + 3 e comece a escrever hashCode para achar a opção de gerá-los. Então, selecione apenas o atributo número e mande gerar o hashCode e o equals. Como ficou o código gerado?
-1. (opcional, avançado) Crie uma classe de teste e verifique se sua classe Conta funciona agora corretamente em um HashSet, isto é, que ela não guarda contas com números repetidos. Depois, remova o método hashCode. Continua funcionando? Dominar o uso e o funcionamento do hashCode é fundamental para o bom programador.    
+1. (opcional) Assim como no exercício 1, crie uma comparação entre `ArrayList` e `LinkedList`, para ver qual é a mais rápida para se adicionar elementos na primeira posição (list.add(0, elemento)), como por exemplo:
+
+    @[code](./code/collections/TestaPerformanceDeAdicionarNaPrimeiraPosicao.java)
+
+    Seguindo o mesmo raciocínio, você pode ver qual é a mais rápida para se percorrer usando o get(índice) (sabemos que o correto seria utilizar o enhanced for ou o `Iterator`). Para isso, insira 30 mil elementos e depois percorra-os usando cada implementação de `List`. Perceba que aqui o nosso intuito não é que você aprenda qual é o mais rápido, o importante é perceber que podemos tirar proveito do polimorfismo para nos comprometer apenas com a interface. Depois, quando necessário, podemos trocar e escolher uma implementação mais adequada as nossas necessidades. Qual das duas listas foi mais rápida para adicionar elementos à primeira posição?
+1. (opcional) Crie uma classe `Banco` que possui uma `List` de `Conta` chamada contas. Repare que numa lista de `Conta`, você pode colocar tanto `ContaCorrente` quanto `ContaPoupanca` por causa do polimorfismo. Crie um método void `adiciona(Conta c)`, um método `Conta pega(int x)` e outro `int pegaQuantidadeDeContas()`. Basta usar a sua lista e delegar essas chamadas para os métodos e coleções que estudamos. Como ficou a classe Banco?
+1. (opcional) No `Banco`, crie um método `Conta buscaPorNome(String nome)` que procura por uma `Conta` cujo nome seja `equals` ao nome dado. Você pode implementar esse método com um for na sua lista de `Conta`, porém não tem uma performance eficiente. Adicionando um atributo privado do tipo `Map<String, Conta>` terá um impacto significativo. Toda vez que o método `adiciona(Conta c)` for invocado, você deve invocar `.put(c.getNome(), c)` no seu mapa. Dessa maneira, quando alguém invocar o método `Conta buscaPorNome(String nome)`, basta você fazer o get no seu mapa, passando nome como argumento! Note, apenas, que isso é só um exercício! Dessa forma você não poderá ter dois clientes com o mesmo nome nesse banco, o que sabemos que não é legal. Como ficaria sua classe Banco com esse Map?
+1. (opcional, avançado) Crie o método `hashCode` para a sua conta, de forma que ele respeite o `equals` de que duas contas são `equals` quando tem o mesmo número. Felizmente para nós, o próprio Eclipse já vem com um criador de `equals` e `hashCode` que os faz de forma consistente. Na classe `Conta`, comece a escrever `hashCode` para achar a opção de gerá-los. Então, selecione apenas o atributo número e mande gerar o `hashCode` e o `equals`. Como ficou o código gerado?
+1. (opcional, avançado) Crie uma classe de teste e verifique se sua classe `Conta` funciona agora corretamente em um HashSet, isto é, que ela não guarda contas com números repetidos. Depois, remova o método `hashCode`. Continua funcionando? Dominar o uso e o funcionamento do `hashCode` é fundamental para o bom programador.    
 
 
 
